@@ -6,20 +6,18 @@ Ejercicio 1
 1.3 Crea una variable llamada 'h' con el valor 5 y otra 'y' con el valor 10. 
 1.4 Crea una otra variable 'z' y asignale el valor de 'h' + 'y'.
 ```
-
-// 1.1 Asigna el valor Hulk a la variable myFavoriteHero
+// 1.1 
 let myFavoriteHero = 'Hulk';
 
-// 1.2 Asigna el valor 50 a la variable x
+// 1.2 
 let x = 50;
 
-// 1.3 Asigna el valor 5 a 'h' y 10 a 'y'
+// 1.3 
 let h = 5;
 let y = 10;
 
-// 1.4 Asigna el valor de 'h' + 'y' a la variable 'z'
+// 1.4 
 let z = h + y;
-
 
 ```
 Ejercicio 2
@@ -46,6 +44,22 @@ let globalBasePrice = 10000;
 const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: 60000};
 const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
 ```
+// 1.1 
+character.age = 25;
+
+// 1.2 
+let firstName = "Jon";
+let lastName = "Snow";
+let age = 24;
+console.log(`Soy ${firstName} ${lastName}, tengo ${age} años y me gustan los lobos`);
+
+// 1.3 
+console.log(toy1.price + toy2.price);
+
+// 1.4 
+globalBasePrice = 25000;
+car1.finalPrice = car1.basePrice + globalBasePrice;
+car2.finalPrice = car2.basePrice + globalBasePrice;
 
 ```
 Ejercicio 3
